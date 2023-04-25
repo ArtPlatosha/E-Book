@@ -266,3 +266,15 @@ section {
 	padding-bottom: 3rem;
 	line-height: 2;
 }
+
+.inside p {
+	font-size: 1.6rem;
+	color: var(--light-black);
+	padding: 2rem 0;
+	line-height: 2;
+	text-align: center;
+}
+
+.inside img {
+	width: 100%;
+}
