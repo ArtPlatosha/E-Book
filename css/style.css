@@ -178,3 +178,91 @@ section {
 .author .row .image img {
 	width: 100%;
 }
+
+.book {
+	background-color: var(--bg);
+	text-align: center;
+	position: relative;
+}
+
+.book .content {
+	display: flex;
+}
+
+.book .content .left {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3rem
+}
+
+.book .content .left .box1 {
+	padding: 6rem 1% 0;
+}
+
+.book .content .left .box1 img,
+.book .content .left .box2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.book .content .left .box1 .no-line,
+.book .content .left .box2 .no-line {
+	margin: 0 auto 2rem;
+}
+
+.book .content .left .box1 .context {
+	background-color: var(--white);
+	box-shadow: 0 0 1rem .3rem rgba(0, 0, 0, 0.05);
+	padding: 4rem 0 2.5rem;
+	border-radius: 3rem;
+}
+
+.book .content .left .box2 .context {
+	background-color: var(--white);
+	box-shadow: 0 0 1rem .3rem rgba(0, 0, 0, 0.05);
+	padding: 7rem 0 5.5rem;
+	border-radius: 3rem;
+}
+
+.book .content .left .box1 .context i,
+.book .content .left .box2 .context i {
+	font-size: 3.5rem;
+	color: var(--primary-color);
+	margin: .5rem 0 1.5rem 0;
+}
+
+.book .content .left .box1 .context h3,
+.book .content .left .box2 .context h3 {
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+.book .content .right {
+	padding: 10% 9% 0;
+	text-align: left;
+}
+
+.book .content .right h4 {
+	font-size: 2rem;
+	color: var(--black);
+	font-weight: 500;
+	text-transform: uppercase;
+	background: url(../images/bgwhite.png) no-repeat;
+	display: inline-block;
+	padding: .8rem 0 .8rem 2rem;
+	margin-left: -2rem;
+}
+
+.book .content .right h2 {
+	font-size: 4rem;
+	color: var(--black);
+	padding-top: 1rem;
+}
+
+.book .content .right p {
+	font-size: 1.2rem;
+	color: var(--black);
+	padding: 1rem 0;
+	padding-bottom: 3rem;
+	line-height: 2;
+}
