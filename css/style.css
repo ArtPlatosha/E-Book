@@ -418,3 +418,56 @@ section {
 	background-position: center;
 	border-radius: 0 3rem 3rem 0;
 }
+
+.order {
+	background-color: var(--bg);
+}
+
+.order .row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+}
+
+.order .row .content {
+	flex: 1 1 30rem;
+}
+
+.order .row .content img {
+	width: 50%;
+	padding-bottom: 2rem;
+}
+
+.order .row .content h3 {
+	font-size: 3.5rem;
+	color: var(--main-color);
+}
+
+.order .row .content p {
+	font-size: 1.4rem;
+	color: var(--light-black);
+	padding: 1rem 0;
+	line-height: 2;
+}
+
+.order .row .content h4 {
+	font-size: 2.8rem;
+	color: var(--primary-color);
+}
+
+.order .row .content h6 {
+	font-size: 1.7rem;
+	color: var(--black);
+	font-weight: normal;
+	padding-bottom: 3rem;
+}
+
+.order .row .image {
+	flex: 1 1 55rem;
+}
+
+.order .row .image img {
+	width: 100%;
+	padding-top: 6rem;
+}
