@@ -41,6 +41,21 @@ section {
 	padding: 3rem 9%;
 }
 
+.btn {
+	font-size: 1.3rem;
+	color: #fff;
+	font-weight: 700;
+	padding: 1rem 3rem;
+	border-radius: .5rem;
+	background-image: linear-gradient(to left top, var(--primary-color), var(--main-color));
+	background-size: 1000%;
+	transition: .25s ease;
+}
+
+.btn:is(:hover, :focus) {
+	background-position: bottom right;
+}
+
 .header {
 	position: fixed;
 	top: 0;
@@ -95,4 +110,25 @@ section {
 	cursor: pointer;
 	color: var(--white);
 	display: none;
+}
+
+.home {
+	min-height: 110vh;
+	background: url('../images/home-bg.jpg') no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home .content {
+	text-align: center;
+}
+
+.home .content h3 {
+	font-size: 7rem;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: var(--white);
+	padding-bottom: 3.5rem;
 }
