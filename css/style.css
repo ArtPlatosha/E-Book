@@ -278,3 +278,28 @@ section {
 .inside img {
 	width: 100%;
 }
+
+.table .box-container .box .chap {
+	font-size: 2rem;
+	display: flex;
+	gap: 4rem;
+}
+
+.table .box-container .box .chap span {
+	font-size: 3.2rem;
+	color: var(--primary-color);
+}
+
+.table .box-container .box .desc {
+	font-size: 1.4rem;
+	color: var(--light-black);
+	margin-left: 8rem;
+}
+
+.table .box-container .box .line {
+	width: 100%;
+	background-color: #cecece;
+	height: 0.1rem;
+	margin: 3.2rem 0;
+}
+
