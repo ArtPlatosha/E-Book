@@ -40,3 +40,59 @@ html::-webkit-scrollbar-thumb {
 section {
 	padding: 3rem 9%;
 }
+
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem 9%;
+	background-color: var(--main-color);
+}
+
+.header .logo {
+	font-size: 2.2rem;
+	font-weight: bolder;
+	color: var(--white);
+}
+
+.header .logo i {
+	color: var(--primary-color);
+	padding-right: .5rem;
+}
+
+.header .navbar a {
+	font-size: 1.7rem;
+	margin-left: 2rem;
+	color: var(--white);
+	padding-block: .8rem;
+	position: relative;
+}
+
+.header .navbar a::after {
+	content: '';
+	position: absolute;
+	background-color: var(--primary-color);
+	bottom: .5rem;
+	left: 0;
+	width: 100%;
+	height: 0.2rem;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: .5s ease;
+}
+
+.header .navbar a:is(:hover, :focus)::after {
+	transform: scaleX(1);
+}
+
+#menu {
+	font-size: 2.5rem;
+	cursor: pointer;
+	color: var(--white);
+	display: none;
+}
