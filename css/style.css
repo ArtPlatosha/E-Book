@@ -303,3 +303,59 @@ section {
 	margin: 3.2rem 0;
 }
 
+.table .row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 10rem;
+}
+
+.table .row .image {
+	flex: 1 1 30rem;
+}
+
+.table .row .image  img {
+	width: 100%;
+}
+
+.table .row .content {
+	flex: 1 1 40rem;
+}
+
+.table .row .content h2 {
+	font-size: 2.5rem;
+	color: var(--black);
+	margin-bottom: 1rem;
+}
+
+.table .row .content .line {
+	width: 100%;
+	background-color: var(--primary-color);
+	height: .1rem;
+	margin-bottom: 3.2rem;
+}
+
+.table .row .content .container {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	gap: 2rem;
+}
+
+.table .row .content .container h3 {
+	font-size: 4.5rem;
+	color: var(--main-color);
+}
+
+.table .row .content .container h4 {
+	font-size: 1.7rem;
+	color: var(--primary-color);
+}
+
+.table .row .content .container p {
+	font-size: 1.2rem;
+	color: var(--light-black);
+	padding: 1rem 0;
+	line-height: 1.7;
+}
