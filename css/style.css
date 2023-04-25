@@ -41,6 +41,20 @@ section {
 	padding: 3rem 9%;
 }
 
+.heading {
+	font-size: 4rem;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+	color: var(--main-color);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.heading span {
+	text-transform: uppercase;
+	color: var(--primary-color)
+}
+
 .btn {
 	font-size: 1.3rem;
 	color: #fff;
@@ -131,4 +145,36 @@ section {
 	font-weight: normal;
 	color: var(--white);
 	padding-bottom: 3.5rem;
+}
+
+.author .row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 2rem;
+}
+
+.author .row .content {
+	flex: 1 1 40rem;
+}
+
+.author .row .content h3 {
+	font-size: 3.5rem;
+	color: var(--black);
+	text-transform: uppercase;
+}
+
+.author .row .content p {
+	font-size: 1.6rem;
+	color: var(--light-black);
+	padding: 2rem 0;
+	line-height: 2;
+}
+
+.author .row .image {
+	flex: 1 1 40rem;
+}
+
+.author .row .image img {
+	width: 100%;
 }
