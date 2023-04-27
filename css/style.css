@@ -526,29 +526,28 @@ section {
 	color: var(--white);
 }
 
-@media (max-width:991px){
+@media (max-width:991px) {
 
-html{
+html {
 	font-size: 55%;
 }
 
-.header{
+.header {
 	padding: 2rem 5rem;
 }
-
 }
 
 @media (max-width: 768px) {
 
-#menu{
+#menu {
 	display: inline-block;
 }
 
-.fa-times{
+.fa-times {
 	transform: rotate(180deg);
 }
 
-.header .navbar{
+.header .navbar {
 	position: absolute;
 	top: 99%; left: 0; right: 0;
 	background: var(--main-color);
@@ -556,7 +555,37 @@ html{
 	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
-.header .navbar.active{
+.header .navbar.active {
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
+
+.header .navbar a {
+	display: block;
+	margin: 1rem;
+	margin-left: 2rem;
+}
+
+.home .content {
+	font-size: 5rem;
+}
+
+.book .content,
+.book .left {
+	display: flex;
+	flex-wrap: wrap;
+}
+}
+
+@media (max-width: 450px) {
+	html {
+		font-size: 50%;
+	}
+
+	.home .content h3 {
+		font-size: 4rem;
+	}
+
+	.table .row .content .container {
+		flex-wrap: wrap;
+	}
 }
