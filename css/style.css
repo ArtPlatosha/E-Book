@@ -526,36 +526,37 @@ section {
 	color: var(--white);
 }
 
-@media (max-width: 991px) {
-	html{
-		font-size: 55%;
-	}
+@media (max-width:991px){
 
-	.header {
-		padding: 2rem 5rem;
-	}
+html{
+	font-size: 55%;
+}
+
+.header{
+	padding: 2rem 5rem;
+}
+
 }
 
 @media (max-width: 768px) {
-	#menu {
-		display: inline-block;
-	}
 
-	.fa-times {
-		transform: rotate(180deg);
-	}
+#menu{
+	display: inline-block;
+}
 
-	.header .navbar {
-		position: absolute;
-		top: 99%;
-		left: 0;
-		right: 0;
-		background-color: var(--main-color);
-		border-top: .1rem solid #cecece;
-		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-	}
+.fa-times{
+	transform: rotate(180deg);
+}
 
-	.header .navbar.active {
-		clip-path: polygon(0, 0, 100% 0, 100% 100%, 0 100%);
-	}
+.header .navbar{
+	position: absolute;
+	top: 99%; left: 0; right: 0;
+	background: var(--main-color);
+	border-top: .1rem solid #cecece;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.header .navbar.active{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
 }
